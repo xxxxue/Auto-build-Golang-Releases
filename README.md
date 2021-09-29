@@ -52,7 +52,11 @@ Copyright (C) 2021 Auto-build-Golang-Releases
 =========================== 全部结束,按回车键退出程序 ===========================
 ```
 
-# dotnet tool 全局安装
+# dotnet tool 通过nuget一键安装 (推荐)
+
+> dotnet tool install --global Auto-build-Golang-Releases
+
+# dotnet tool 通过源码全局安装
 
 > 在 `Auto-build-Golang-Releases.csproj`所在的目录, 使用命令行执行以下命令即可
 

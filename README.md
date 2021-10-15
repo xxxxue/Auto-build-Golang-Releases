@@ -77,11 +77,9 @@ dotnet tool uninstall --global Auto-build-Golang-Releases
 
 如果这个开源项目 可以帮助到你, 你也可以请作者吃一包辣条。
 
+![pay](img.assets/pay.png)
 
 
-![image-20210927231420844](img.assets/aliPay.png)
 
 
-
-![image-20210927231420844](img.assets/wxPay.png)
 

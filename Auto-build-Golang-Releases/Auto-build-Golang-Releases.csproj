@@ -6,13 +6,22 @@
         <RootNamespace>Auto_build_Golang_Releases</RootNamespace>
 
         <!--工具配置-->
-        <Version>1.0.1</Version>
-        <Description>一键编译golang二进制文件的自动化工具</Description>
+        <Version>1.0.2</Version>
+        <Description>One click automatic cross compilation of golang binaries...一键编译golang二进制文件的自动化工具</Description>
         <ToolCommandName>gor</ToolCommandName>
         <!--编译项目会自动生成nupkg目录-->
         <PackAsTool>true</PackAsTool>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageOutputPath>./nupkg</PackageOutputPath>
+        <!--nuget-->
+        <Authors>xxxue</Authors>
+        <Company>xxxue</Company>
+        <Product>AutoBuildGolangReleases</Product>
+        <Copyright>© 2021-2999 xxxue</Copyright>
+        <RepositoryUrl>https://github.com/xxxxue/Auto-build-Golang-Releases</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/xxxxue/Auto-build-Golang-Releases</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
